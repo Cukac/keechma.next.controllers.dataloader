@@ -1,4 +1,4 @@
-(ns keechma.next.controller.dataloader.controller
+(ns keechma.next.controllers.dataloader.controller
   (:require [cljs.core.async :refer [alts! timeout <! close! chan]]
             [goog.object :as gobj]
             [promesa.core :as p]

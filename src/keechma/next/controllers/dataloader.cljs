@@ -1,4 +1,4 @@
-(ns keechma.next.controller.dataloader.core
+(ns keechma.next.controllers.dataloader
   (:require [keechma.next.protocols :as keechma-pt]
             [keechma.next.controller.dataloader.controller]
             [keechma.next.controller.dataloader.protocols :as pt]))
