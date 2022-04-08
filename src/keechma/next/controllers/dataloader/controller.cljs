@@ -6,7 +6,7 @@
             [keechma.next.controller :as ctrl]
             [keechma.pipelines.core :as pp :refer [in-pipeline?]]
             [keechma.pipelines.runtime :as ppr]
-            [keechma.next.controller.dataloader.protocols :as pt :refer [IDataloaderApi]])
+            [keechma.next.controllers.dataloader.protocols :as pt :refer [IDataloaderApi]])
   (:require-macros [cljs.core.async.macros :refer [go-loop]]))
 
 (def default-config
