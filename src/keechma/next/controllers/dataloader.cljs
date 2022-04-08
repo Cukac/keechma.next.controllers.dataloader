@@ -1,7 +1,7 @@
 (ns keechma.next.controllers.dataloader
   (:require [keechma.next.protocols :as keechma-pt]
-            [keechma.next.controller.dataloader.controller]
-            [keechma.next.controller.dataloader.protocols :as pt]))
+            [keechma.next.controllers.dataloader.controller]
+            [keechma.next.controllers.dataloader.protocols :as pt]))
 
 (derive :keechma/dataloader :keechma/controller)
 
